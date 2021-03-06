@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body{
+	background-image: url("fon6.jpg");
+	background-repeat: no-repeat;
+	height: 100;
+    width: 1280px;
+	background-size: cover;
+	background-position: center; 
+}
+h3{
+	font-style: italic;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: chiller;
+	text-align: right;
+	color:#85006F;
+	margin: 0;
+
+}
+ul{
+	float: rigt;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 0;
+	margin-left: 25px;
+	margin-bottom: 20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 2px solid transparent;
+	transition: all 2s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color:#000;
+} 
+div.photo{
+	display: inline-block;
+}
+img.photo1{
+	margin-top:10px;
+	margin-left: 350px;
+	align-items: center;
+	width: 250px;
+	height: 200px;
+	border: 2px solid red;
+	border-radius: 10px;
+	filter: brightness(110%);
+	filter: blur(0.1px);
+	filter: opacity(90%);
+	box-shadow: 5px 5px 5px 5px #857249;
+}
+img.photo2{
+	margin-top:10px;
+	margin-left:0px;
+	align-items: center;
+	width: 250px;
+	height: 200px;
+	border: 2px solid red;
+	border-radius: 10px;
+	filter: brightness(110%);
+	filter: blur(0.1px);
+	filter: opacity(90%);
+	box-shadow: 5px 5px 5px 5px #857249;
+}
+div.link{
+	align-items: center;
+	text-align: center;
+	/*margin-left: 400px;*/
+}
+.icon{
+	clip-path: circle(45%);
+	filter: brightness(110%);
+}

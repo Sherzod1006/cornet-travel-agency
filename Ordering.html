@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ordering</title>
+	<style type="text/css">
+		body{
+			background-image: url("fon9.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-position: center;
+			/*background-color: lightblue;*/
+			box-shadow: 5px 5px 5px grey;
+			width: 1300px;
+			height: 900px;
+		}
+		h1{
+			text-align: center;
+			font-weight: bold;
+			font-size: 36px;
+			font-style: italic;
+			font-family: Cloister;
+			color: dark black;
+			background-color:lightblue;
+			margin:20px;
+		}
+		.btn{
+			text-align: center;
+			margin-top: 50px;
+			margin-right: 450px;
+			margin-left: 450px;
+			border: 1px solid #fff;
+			border-radius: 25px;
+			padding: 10px 30px;
+			background-color: #0AFF3B;
+			cursor: pointer;
+			color: black;
+			text-decoration: none;
+			transition: 5s ease;
+		}
+		.btn:hover{
+			background-color: #fff;
+			color: #000
+		}
+
+	</style>
+</head>
+<body>
+
+	<div>
+		<form>
+			<fieldset>
+				<legend>
+				<h1>Ordering Form to Travel</h1>
+				</legend>
+			
+			First Name : <input type="text" name="name" placeholder="Enter your name:" autofocus="" required=""><br><br>
+			Last Name : <input type="text" name="Surname" placeholder="Enter your surname" required=""><br><br>
+			Region: <input type="text" name="" placeholder="Enter your region"><br><br>
+			Birth date : <input type="date" name="" placeholder="Enter your birth date"><br><br>
+			Passport series: <input type="text" name="" maxlength="3" minlength="1" width="50px" placeholder="series letter" required="">&nbsp &nbsp<input type="number" name="" placeholder="series number" required=""><br><br>
+
+			<label for="Male">Male</label>
+			<input type="radio" name="sex" checked="">
+			&nbsp &nbsp &nbsp &nbsp
+			<label for="Female">Female</label>
+			<input type="radio" name="sex">
+			<br><br>
+			Which languages do you know? <br>
+			English :<input type="checkbox" name="">
+			Russian :<input type="checkbox" name="">
+			Spanish :<input type="checkbox" name="">
+			Other :<input type="checkbox" name=""><br><br>
+			<fieldset>
+				<legend>Connecting</legend>
+				Phone number : <input type="number" name=""><br><br> 
+				Social network accaunt:<select>
+					<option>Facebook</option>
+					<option>Twitter</option>
+					<option>Telegram</option>
+					<option>Instagram</option>
+				</select> &nbsp &nbsp &nbsp &nbsp
+				Link: <input type="text" name=""><br><br>
+				E-mail: <input type="email" name="" placeholder="Akshay9090@mail.ru" width="400px" required="">
+				&nbsp &nbsp &nbsp &nbsp
+				Password: <input type="password" name="" placeholder="password">
+			</fieldset>
+			<fieldset>
+				<legend>Booking</legend>
+				Travel type: 
+				<select>
+					<option>Trip</option>
+					<option>Tour</option>
+					<option>Mountain Hill</option>
+					<option>Journey</option>
+				</select>
+				Choose the country:
+				<select>
+					<optgroup label="Europe">
+						<option>Paris</option>
+						<option>London</option>
+						<option>Moscow</option>
+						<option>Madrid</option>
+					</optgroup>
+					<optgroup label="Asia">
+						<option>Pekin</option>
+						<option>Dubai</option>
+						<option>Tokio</option>
+						<option>Termiz</option>
+						<option>Samarkand</option>
+						<option>Bukhara</option>
+					</optgroup>
+					<optgroup label="America">
+						<option>New York</option>
+						<option>Mexico</option>
+						<option>Las Vegas</option>
+					</optgroup>
+					<optgroup label="Africa">
+						<option>Cairo</option>
+						<option>Cape Town</option>
+					</optgroup>
+				</select><br><br>
+				Payment type:<br> 
+				Cash money:<input type="radio" name="pay">&nbsp &nbsp
+				Credit card:<input type="radio" name="pay">&nbsp &nbsp
+				Transaction:<input type="radio" name="pay">&nbsp &nbsp<br><br>
+				Ticket № :<input type="number" name="" placeholder="Enter ticket №"><br><br>
+				Total cost :
+				<select>
+					<option>$</option>
+					<option>£</option>
+					<option>€</option>
+				</select>
+				<input type="number" name="" placeholder="Enter total cost of Travel "><br><br>
+				Download ticket copy <input type="file" name="" value="Select"> <br><br>
+				All requirements:<br><br>
+				<input type="button" name="choice" value="Agree">
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+				<input type="button" name="choice" value="Disagree">
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+				<input type="submit" name="" value="Submit">
+			</fieldset>
+			<br><br><h3 align="center" class="btn" ><a href="Home.html" class="back">Thanks for your booking</h3>
+			</fieldset>
+			
+		</form>
+	</div>
+</body>
+</html>
